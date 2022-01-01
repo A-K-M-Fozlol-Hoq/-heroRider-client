@@ -1,0 +1,102 @@
+.login-wraper input[type="text"],
+.login-wraper input[type="number"],
+.login-wraper input[type="email"],
+.login-wraper input[type="password"],
+.login-wraper select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.login-wraper input[type="checkbox"] {
+  margin-bottom: 20px;
+}
+
+.login-wraper input[type="submit"] {
+  width: 100%;
+  background-color: #333f50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.login-wraper input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.login-wraper .login {
+  width: 60%;
+  margin: 50px auto 0;
+  max-height: 600px;
+  overflow:scroll;
+}
+.login-wraper .div,
+.login-wraper .social-media {
+  text-align: center;
+}
+
+.login-wraper .form {
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border: 6px solid #333f50;
+}
+.login-wraper form input[type="text"]:focus,
+.login-wraper form input[type="number"]:focus,
+.login-wraper form input[type="email"]:focus,
+.login-wraper form input[type="password"]:focus,
+.login-wraper form input[type="checkbox"]:focus,
+.login-wraper form select:focus {
+  box-shadow: 0 0 5px #43d1af;
+}
+.login-wraper .btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.login-wraper .fb {
+  background-color: #3b5998;
+  color: white;
+}
+
+.login-wraper .google {
+  background-color: #333f50;
+  color: white;
+}
+
+.login-wraper .error-check{
+  height: 300px;
+  width:30%;
+  padding: 15px;
+  border: 2px solid #333f50;
+  border-radius: 10px;
+  margin: auto;
+  background-color: rgb(0,0,255,0.2);
+}
+
+
+@media only screen and (max-width: 992px) {
+  .login-wraper .login {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .login-wraper .login {
+    width: 90%;
+  }
+}
